@@ -303,7 +303,7 @@ class Candidate extends CI_Controller {
 				}
 		}
 	}
-	public function itiChangeStatus()
+	public function candidateChangeStatus()
 	{
 		$this->access->checkTokenKey();
 		$this->response->decodeRequest(); 
@@ -311,7 +311,7 @@ class Candidate extends CI_Controller {
 			if(trim($action) == "changeStatus"){
 				$ids = $this->input->post("list");
 				$statusCode = $this->input->post("status");	
-				$changestatus = $this->CommonModel->changeMasterStatus('iti_registration',$statusCode,$ids,'cID');
+				$changestatus = $this->CommonModel->changeMasterStatus('candidate',$statusCode,$ids,'cID');
 				
 			if($changestatus){
 				$status['data'] = array();
@@ -327,5 +327,8 @@ class Candidate extends CI_Controller {
 			}
 		}
 	}	
+
+
+	
 	
 }

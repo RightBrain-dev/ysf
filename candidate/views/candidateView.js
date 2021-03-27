@@ -107,7 +107,7 @@ var companyView = Backbone.View.extend({
         return false;
       }
         $.ajax({
-            url:APIPATH+'companyMaster/status',
+            url:APIPATH+'candidateMaster/status',
             method:'POST',
             data:{list:idsToRemove,action:action,status:status},
             datatype:'JSON',

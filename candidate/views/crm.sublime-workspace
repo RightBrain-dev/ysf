@@ -1,0 +1,508 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"MODIFIE",
+				"modifiedBy"
+			],
+			[
+				"pl",
+				"Please"
+			],
+			[
+				"re",
+				"required"
+			],
+			[
+				"set",
+				"setvalues"
+			],
+			[
+				"admin",
+				"adminApplyDeductions"
+			],
+			[
+				"adminappl",
+				"adminApplySuperVision"
+			],
+			[
+				"admina",
+				"adminApplyExtaStipend"
+			],
+			[
+				"adminApp",
+				"adminApplyStipend"
+			],
+			[
+				"stipend",
+				"stipendRate"
+			],
+			[
+				"trainee",
+				"traineeID"
+			],
+			[
+				"shoe",
+				"shoeUniform"
+			],
+			[
+				"st",
+				"style\tTag"
+			],
+			[
+				"validate",
+				"validatedata"
+			],
+			[
+				"contai",
+				"container-fluid"
+			],
+			[
+				"co",
+				"col-xs-6"
+			],
+			[
+				"col",
+				"col-xs-12"
+			],
+			[
+				"con",
+				"container-fluid"
+			],
+			[
+				"com",
+				"companyID"
+			],
+			[
+				"bus",
+				"businessSectorID"
+			],
+			[
+				"trai",
+				"traineeSkillID"
+			],
+			[
+				"ex",
+				"exit"
+			],
+			[
+				"op",
+				"option\tTag"
+			],
+			[
+				"pritn",
+				"print"
+			],
+			[
+				"branch",
+				"branchView"
+			],
+			[
+				"companyID",
+				"companyID"
+			],
+			[
+				"bu",
+				"businessSectorID"
+			],
+			[
+				"tr",
+				"traineeSkillID"
+			],
+			[
+				"caste",
+				"casteCategoryID"
+			],
+			[
+				"bar",
+				"branchMaster"
+			],
+			[
+				"bran",
+				"branchMaster"
+			],
+			[
+				"barc",
+				"branchDetails"
+			],
+			[
+				"compa",
+				"companyMaster"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"is",
+				"iscreated"
+			],
+			[
+				"articles",
+				"articlesmodel"
+			],
+			[
+				"flas",
+				"flashAndRedirect"
+			],
+			[
+				"success",
+				"successmessage"
+			],
+			[
+				"class",
+				"class"
+			],
+			[
+				"va",
+				"var_dump"
+			],
+			[
+				"ema",
+				"emailid"
+			],
+			[
+				"ar",
+				"array"
+			],
+			[
+				"echo",
+				"echo"
+			],
+			[
+				"wid",
+				"width\tproperty"
+			],
+			[
+				"em",
+				"email"
+			],
+			[
+				"fir",
+				"firstname"
+			],
+			[
+				"my",
+				"mysqli"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"upda",
+				"updateid"
+			],
+			[
+				"show",
+				"showmydata"
+			],
+			[
+				"delete",
+				"delete"
+			],
+			[
+				"html",
+				"htmL"
+			],
+			[
+				"t",
+				"type\tAttr"
+			],
+			[
+				"for",
+				"foreach\tforeach …"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/xampp/htdocs/crm/crmAPI/application/controllers/Masters.php",
+		"/C/xampp/htdocs/crm/crmAPI/application/controllers/CompanyCommercials.php",
+		"/C/xampp/htdocs/crm/plugin/admin/templates/addAdmin_temp.html",
+		"/C/xampp/htdocs/crm/plugin/trainee/templates/traineeSingle_temp.html",
+		"/C/xampp/htdocs/crm/plugin/trainee/templates/traineeFilterOption_temp.html",
+		"/C/xampp/htdocs/crm/plugin/trainee/views/traineeSingleView.js",
+		"/C/xampp/htdocs/crm/plugin/trainee/templates/trainee_temp.html",
+		"/C/xampp/htdocs/crm/plugin/menu/views/menuSingleView.js",
+		"/C/xampp/htdocs/crm/plugin/admin/templates/admin_temp.html",
+		"/C/xampp/htdocs/crm/plugin/admin/templates/adminFilterOption_temp.html",
+		"/C/xampp/htdocs/crm/plugin/admin/views/addAdminView.js",
+		"/C/xampp/htdocs/crm/plugin/userRole/templates/userRole_temp.html",
+		"/C/xampp/htdocs/crm/plugin/userRole/templates/userRoleFilterOption_temp.html",
+		"/C/xampp/htdocs/crm/plugin/userRole/templates/userRoleSingle_temp.html",
+		"/C/xampp/htdocs/crm/plugin/userRole/views/userRoleSingleView.js",
+		"/C/xampp/htdocs/crm/plugin/menu/templates/menu_temp.html",
+		"/C/xampp/htdocs/crm/plugin/menu/templates/menuSingle_temp.html",
+		"/C/xampp/htdocs/crm/plugin/businessSector/templates/business_temp.html",
+		"/C/xampp/htdocs/crm/plugin/businessSector/templates/businessRow.html",
+		"/C/xampp/htdocs/crm/plugin/businessSector/templates/businessFilterOption_temp.html",
+		"/C/xampp/htdocs/crm/plugin/businessSector/views/businessSingleView.js",
+		"/C/xampp/htdocs/crm/plugin/company/views/companySingleView.js",
+		"/C/xampp/htdocs/crm/plugin/company/templates/companySingle_temp.html",
+		"/C/xampp/htdocs/crm/plugin/company/templates/company_temp.html",
+		"/C/xampp/htdocs/crm/plugin/businessSector/templates/businessSingle_temp.html",
+		"/C/xampp/htdocs/crm/plugin/casteCategory/templates/casteCatSingle_temp.html",
+		"/C/xampp/htdocs/crm/plugin/traineeSkill/templates/traineeSkill_temp.html",
+		"/C/xampp/htdocs/crm/plugin/traineeSkill/views/traineeSkillSingleView.js",
+		"/C/xampp/htdocs/crm/plugin/casteCategory/templates/casteCat_temp.html",
+		"/C/xampp/htdocs/crm/plugin/state/templates/stateSingle_temp.html",
+		"/C/xampp/htdocs/crm/plugin/traineeSkill/templates/traineeSkillSingle_temp.html",
+		"/C/xampp/htdocs/crm/plugin/traineeSkill/templates/traineeSkillFilterOption_temp.html",
+		"/C/xampp/htdocs/crm/plugin/state/templates/state_temp.html",
+		"/C/xampp/htdocs/crm/plugin/state/views/stateSingleView.js",
+		"/C/xampp/htdocs/crm/plugin/branch/views/branchSingleView.js",
+		"/C/xampp/htdocs/crm/plugin/branch/templates/branchFilterOption_temp.html",
+		"/C/xampp/htdocs/crm/plugin/branch/templates/branchSingle_temp.html",
+		"/C/xampp/htdocs/crm/crmAPI/application/libraries/ValidateData.php",
+		"/C/xampp/htdocs/crm/crmAPI/application/libraries/Systemmsg.php",
+		"/C/xampp/htdocs/crm/systems/js/router.js",
+		"/C/Users/Santosh/Desktop/demo.php",
+		"/C/xampp/htdocs/crm/plugin/trainee/views/traineeView.js",
+		"/C/xampp/htdocs/crm/plugin/companyCommercials/views/companyCommercialsSingleView.js",
+		"/C/xampp/htdocs/crm/plugin/transformers/views/logupdateView.js",
+		"/C/xampp/htdocs/crm/plugin/company/views/companyView.js",
+		"/C/xampp/htdocs/crm/assets/datepicker/datepicker.js",
+		"/C/xampp/htdocs/crm/systems/js/main.js",
+		"/C/xampp/htdocs/crm/plugin/transformers/views/transformerHistory.js",
+		"/C/xampp/htdocs/crm/plugin/transformers/views/transformerSingleView.js",
+		"/C/xampp/htdocs/crm/crmAPI/application/config/database.php",
+		"/C/xampp/htdocs/crm/plugin/trainee/templates/traineeRow.html",
+		"/C/xampp/htdocs/crm/plugin/casteCategory/views/casteCatView.js",
+		"/C/xampp/htdocs/crm/plugin/traineeSkill/views/traineeSkillView.js",
+		"/C/xampp/htdocs/crm/plugin/trainee/models/singleTraineeModel.js",
+		"/C/xampp/htdocs/crm/plugin/companyCommercials/models/singleCompanyCommercialsModel.js",
+		"/C/xampp/htdocs/crm/plugin/companyCommercials/templates/companyCommercials_temp.html",
+		"/C/xampp/htdocs/crm/plugin/companyCommercials/templates/companyCommercialsSingle_temp.html",
+		"/C/xampp/htdocs/crm/plugin/company/models/singleCompanyModel.js",
+		"/C/xampp/htdocs/crm/plugin/company/models/companyModel.js",
+		"/C/xampp/htdocs/crm/plugin/company/templates/companyFilterOption_temp.html",
+		"/C/xampp/htdocs/crm/plugin/company/templates/companyRow.html",
+		"/C/xampp/htdocs/crm/systems/css/custom.css",
+		"/C/xampp/htdocs/crm/plugin/branch/templates/branchRow.html",
+		"/C/xampp/htdocs/crm/plugin/branch/templates/branch_temp.html",
+		"/C/xampp/htdocs/crm/plugin/branch/views/branchView.js",
+		"/C/xampp/htdocs/crm/plugin/trainee/models/traineeModel.js",
+		"/C/xampp/htdocs/crm/plugin/admin/models/adminSingleModel.js",
+		"/C/xampp/htdocs/crm/crmAPI/application/config/routes.php",
+		"/C/xampp/htdocs/crm/systems/libs/jquery/jquery-serialize.js",
+		"/C/xampp/htdocs/crm/systems/libs/jquery/jquery-min.js",
+		"/C/xampp/htdocs/crm/systems/libs/backbone/backbone-min.js",
+		"/C/xampp/htdocs/crm/plugin/companyCommercials/models/companyCommercialsModel.js",
+		"/C/xampp/htdocs/crm/plugin/companyCommercials/models/companyCommercialsFilterModel.js",
+		"/C/xampp/htdocs/crm/crmAPI/application/models/CommonModel.php",
+		"/C/xampp/htdocs/crm/plugin/companyCommercials/templates/companyCommercialsRow.html",
+		"/C/xampp/htdocs/crm/crmAPI/application/controllers/Login.php",
+		"/C/xampp/htdocs/crm/crmAPI/application/models/LoginModel.php",
+		"/C/xampp/htdocs/brdgespan/application/config/database.php",
+		"/C/xampp/htdocs/brdgespan/application/config/config.php",
+		"/C/xampp/htdocs/brdgespan/application/views/header.php",
+		"/C/xampp/htdocs/brdgespan/bspanAPI/application/config/database.php",
+		"/C/xampp/htdocs/brdgespan/application/views/header-home.php",
+		"/C/xampp/htdocs/brdgespan/bspanAPI/application/config/config.php",
+		"/C/xampp/htdocs/brdgespan/bspanAPI/application/config/routes.php",
+		"/C/xampp/htdocs/brdgespan/bspanAPI/application/config/autoload.php",
+		"/C/xampp/htdocs/brdgespan/bspanAPI/application/config/._routes.php",
+		"/C/Users/Santosh/Desktop/quser.php",
+		"/C/xampp/htdocs/crm/systems/templates/sideBar_temp.html",
+		"/C/xampp/htdocs/crm/plugin/casteCategory/templates/casteCatRow.html",
+		"/C/xampp/htdocs/crm/plugin/trainee/models/traineeFilterOptionModel.js",
+		"/C/xampp/htdocs/crm/plugin/trainee/collections/traineeCollection.js",
+		"/C/xampp/htdocs/crm/plugin/menu/models/menuModel.js",
+		"/C/xampp/htdocs/crm/plugin/menu/templates/menuRow.html",
+		"/C/xampp/htdocs/crm/plugin/menu/templates/menuFilterOption_temp.html",
+		"/C/xampp/htdocs/crm/plugin/menu/models/menuFilterOptionModel.js",
+		"/C/xampp/htdocs/crm/plugin/menu/models/singleMenuModel.js",
+		"/C/xampp/htdocs/crm/plugin/menu/collections/menuCollection.js",
+		"/C/xampp/htdocs/crm/plugin/admin/models/adminFilterOptionModel.js",
+		"/C/xampp/htdocs/crm/plugin/userRole/templates/userRoleRow.html",
+		"/C/xampp/htdocs/crm/plugin/userRole/views/userRoleView.js",
+		"/C/xampp/htdocs/crm/plugin/userRole/models/singleuserRoleModel.js",
+		"/C/xampp/htdocs/crm/plugin/userRole/models/userRoleModel.js",
+		"/C/xampp/htdocs/crm/plugin/transformers/views/transformerView.js",
+		"/C/xampp/htdocs/crm/plugin/userRole/models/userRoleFilterOptionModel.js",
+		"/C/xampp/htdocs/crm/plugin/userRole/collections/userRoleCollection.js",
+		"/C/xampp/htdocs/crm/plugin/admin/views/adminView.js",
+		"/C/xampp/htdocs/screen/main.php",
+		"/C/xampp/htdocs/crm/systems/css/Styles.css",
+		"/C/xampp/htdocs/crm/plugin/transformers/templates/transformerRow.html",
+		"/C/xampp/htdocs/crm/plugin/transformers/templates/transformerSingle_temp.html",
+		"/C/xampp/htdocs/crm/plugin/admin/templates/adminRow_temp.html",
+		"/C/xampp/htdocs/crm/plugin/state/templates/stateRow.html",
+		"/C/xampp/htdocs/crm/plugin/state/views/stateView.js",
+		"/C/xampp/htdocs/crm/plugin/businessSector/views/businessView.js",
+		"/C/xampp/htdocs/crm1/index.html",
+		"/C/Users/Santosh/Desktop/crm/systems/js/router.js",
+		"/C/xampp/htdocs/crm/plugin/transformersdue/views/dueView.js",
+		"/C/xampp/htdocs/crm/plugin/transformers/templates/transformer_temp.html",
+		"/C/xampp/htdocs/crm/crmAPI/application/controllers/SearchAdmin.php",
+		"/C/xampp/htdocs/crm/crmAPI/application/models/SearchAdminModel.php",
+		"/C/xampp/htdocs/crm/systems/js/custom.js",
+		"/C/xampp/htdocs/crm/plugin/traineeSkill/collections/traineeSkillCollection.js",
+		"/C/xampp/htdocs/crm/plugin/casteCategory/collections/casteCategoryMasterCollection.js",
+		"/C/xampp/htdocs/crm/plugin/traineeSkill/collections/stateCollection.js",
+		"/C/xampp/htdocs/crm/plugin/admin/addAdminView.js",
+		"/C/xampp/htdocs/crm/plugin/businessSector/collections/businessCollection.js",
+		"/C/xampp/htdocs/crm/plugin/businessSector/templates/branchRow.html",
+		"/C/xampp/htdocs/crm/plugin/businessSector/templates/branchFilterOption_temp.html"
+	],
+	"find":
+	{
+		"height": 40.0
+	},
+	"find_in_files":
+	{
+		"height": 107.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 41.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "crm.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"admin\\models\\adminSingleModel.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 189.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

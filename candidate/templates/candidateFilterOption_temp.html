@@ -1,0 +1,61 @@
+<div id="filterData" class="modelbox">
+  <form id="demo-form" action="#">
+    <div class="clearfix">&nbsp;</div>
+    <div class="col-xs-6">
+      <select id="textSearch" class="form-control " name="textSearch">
+          <option value="companyName">Company Name</option> 
+                          
+      </select>
+    </div>
+    <div class="col-xs-6">
+      <input id="textval" class="form-control txtchange" name="textval" type="text">
+    </div>
+    <div class="clearfix">&nbsp;</div>
+    <div class="col-sm-12">
+        <label style="width:100%;"for="filterBName">Branch Name<span class="error"></span><br>
+            <select id="filterBName" name="filterBName" class="form-control dropval">
+              <option value="">Select Branch Name</option>
+              <% _.each(branchList, function(model1) { %>
+                <option value="<%=model1.attributes.branchID%>"><%=model1.attributes.branchName%></option>
+              <%}); %>
+            </select>
+          </label>
+    </div>
+    <div class="clearfix">&nbsp;</div>
+    <div class="col-sm-12">
+        <label style="width:100%;"for="filterSName">State Name<span class="error"></span><br>
+            <select id="filterSName" name="filterSName" class="form-control dropval">
+              <option value="">Select State Name</option>
+              <% _.each(stateList, function(model1) { %>
+                <option value="<%=model1.attributes.stateID%>"><%=model1.attributes.stateName%></option>
+              <%}); %>
+            </select>
+          </label>
+    </div>
+    <div class="clearfix">&nbsp;</div>
+    <div class="col-xs-6">
+      <label>Order By:</label>
+      <ul class="item-container" data-valid="orderBy">
+          <li class="orderBy multiOptionSel" data-single="Y" data-value="companyName">Company Name</li>
+          <li class="orderBy multiOptionSel" data-single="Y" data-value="createdDate">Created Date</li>
+          
+      </ul>
+    </div>
+    <div class="col-xs-6">
+    <label>Order:</label>
+    <ul class="item-container" data-valid="order">
+        <li class="order multiOptionSel" data-single="Y" data-value="ASC">Ascending</li>
+        <li class="order multiOptionSel" data-single="Y" data-value="DESC">Descending</li>
+    </ul>
+    </div>
+    <div class="clearfix">&nbsp;</div>
+    <div class="clearfix">&nbsp;</div>
+    <div class="col-xs-12">
+      <input type="button" id="filterSearch" class="btn btn-success" value="Search"></button>
+      <input type="button" id="resetSearch" class="btn btn-success resetval" value="Reset"></button>
+      
+    </div>
+    
+  </form>
+  
+</div>

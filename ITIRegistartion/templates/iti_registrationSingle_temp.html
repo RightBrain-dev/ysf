@@ -1,0 +1,99 @@
+<div id="companyData" class="modelbox">
+    <div class="clearfix">&nbsp;</div>
+
+<form id="companyDetails" name="companyDetails" action="#">
+    <div class="col-xs-12">
+        <div class="member-profile-img">
+            <img src="">
+        </div>
+    </div>    
+      <div class="col-xs-12">
+        
+        <div class="col-sm-12 form-control-row has-feedback">
+                <label for="instituteName">Institute Name<span class="error">*</span> :</label>
+                <input id="instituteName" class="form-control txtchange has-feedback-left" name="instituteName" required="" maxlength="100" type="text" value="<%=  model.instituteName %>">
+                 <span class="fa fa-university form-control-feedback left" aria-hidden="true"></span>
+        </div> 
+      </div>
+      <div class="col-xs-12 form-control-row">
+        <div class="col-sm-12 ">
+                <label for="fullAddress">Full Address<span class="error">*</span> :</label>
+                <textarea id="fullAddress" class="form-control txtchange" name="fullAddress" required="" maxlength="250"><%=  model.fullAddress %></textarea>               
+        </div>
+      </div>
+       <div class="col-xs-12 form-control-row">
+        <div class="col-sm-6 ">
+                  <label for="ITICode">ITI Code<span class="error">*</span> :</label>
+                  <input id="ITICode" class="form-control txtchange" name="ITICode" required="" maxlength="50" type="text" value="<%=  model.ITICode %>">
+          </div> 
+          <div class="col-sm-6 has-feedback">
+            <label for="state">State<span class="error">*</span> :</label>
+            <input id="state" class="form-control txtchange" required="" name="state" maxlength="50" type="text" value="<%=  model.state %>">
+            
+        </div>
+      </div>    
+      <div class="col-xs-12 form-control-row">
+        <div class="col-sm-6 has-feedback">
+            <label for="pinCode">Pin Code<span class="error">*</span> :</label>
+            <input id="pinCode" required="" class="form-control txtchange " name="pinCode" maxlength="6" type="text" value="<%=  model.pinCode %>">
+            
+        </div>
+        <div class="col-sm-6 has-feedback">
+            <label for="principalName">principal Name<span class="error">*</span> :</label>
+            <input id="principalName" required="" class="form-control txtchange has-feedback-left" name="principalName" maxlength="50" type="text" value="<%=  model.principalName %>">
+             <span class="fa fa-user form-control-feedback left" aria-hidden="true"></span>
+        </div>
+       </div>  
+      <div class="col-xs-12 form-control-row">
+        <div class="col-sm-6 has-feedback">
+            <label for="mobileNumber">Mobile Number<span class="error">*</span> :</label>
+            <input id="mobileNumber" class="form-control txtchange has-feedback-left" name="mobileNumber" required="" type="tel" minlength="10"i maxlength="10" pattern="[0-9]{10}" value="<%=  model.mobileNumber %>">
+            <span class="fa fa-mobile form-control-feedback left" aria-hidden="true"></span>
+        </div> 
+        <div class="col-sm-6 has-feedback">
+            <label for="landLineNumber">landLine Number<span class="error">*</span> :</label>
+            <input id="landLineNumber" class="form-control txtchange has-feedback-left" name="landLineNumber" required="" maxlength="10" type="text" value="<%=  model.landLineNumber %>">
+            <span class="fa fa-phone form-control-feedback left" aria-hidden="true"></span>
+        </div> 
+       </div>
+      <div class="col-xs-12 form-control-row">
+       
+        <div class="col-sm-6 has-feedback">
+            <label for="emailId">email Id<span class="error">*</span> :</label>
+            <input id="emailId" class="form-control txtchange has-feedback-left" name="emailId"  maxlength="50" type="email" required="" value="<%=  model.emailId %>">
+          <span class="fa fa-envelope form-control-feedback left" aria-hidden="true"></span>
+        </div>
+         <div class="col-sm-6 has-feedback">
+            <label for="coordinatorName">Co-ordinator Name<span class="error">*</span> :</label>
+            <input id="coordinatorName" class="form-control txtchange has-feedback-left" name="coordinatorName" maxlength="50" type="text" value="<%=  model.coordinatorName %>">
+            <span class="fa fa-user form-control-feedback left" aria-hidden="true"></span>
+        </div>
+      </div>  
+       <div class="col-xs-12 form-control-row">       
+        <div class="col-sm-6 has-feedback">
+            <label for="co_mobileNumber">co_mobileNumber <span class="error">*</span> :</label>
+            <input id="co_mobileNumber" class="form-control txtchange has-feedback-left" name="co_mobileNumber" minlength="10" maxlength="10 " type="tel" pattern="[0-9]{10}" value="<%=  model.co_mobileNumber %>">
+          <span class="fa fa-mobile form-control-feedback left" aria-hidden="true"></span>
+        </div>
+         <div class="col-sm-6 has-feedback">
+            <label for="co_emailId">co_email Id<span class="error">*</span> :</label>
+            <input id="co_emailId" class="form-control txtchange has-feedback-left" name="co_emailId"   type="email" value="<%=  model.co_emailId %>">
+            <span class="fa fa-envelope form-control-feedback left" aria-hidden="true"></span>
+
+        </div> 
+      </div>  
+       <!-- <div class="col-xs-12 form-control-row">       
+       
+        <div class="col-sm-6 has-feedback">
+            <label for="status">status<span class="error"></span> :</label>
+            <input id="status" class="form-control txtchange has-feedback-left" name="status"  type="text" value="<%=  model.status %>">
+            
+        </div>
+      </div>   -->
+      <div class="clearfix">&nbsp;</div>
+        <div class="text-center">
+        <div class="clearfix">&nbsp;</div>
+        <button id="saveCompanyDetails" type="button" class="btn btn-default btn-success">Save</button>
+      </div>
+      </form>
+</div>

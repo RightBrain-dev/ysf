@@ -1,0 +1,22 @@
+<tr class="even pointer bg-<%=instituteDetails.attributes.status%>" >
+  <td class="a-center">
+      <div class="bg__control normal">
+        <label class="check__box">
+          <input class="memberlistcheck" type="checkbox" data-ITIID="<%= instituteDetails.attributes.ITIID %>">
+            <div class="square__box round"></div>
+        </label>
+      </div>
+  </td>
+  <td class="loadview" data-toggle="modal" data-target="#myModal" data-ITIID="<%=instituteDetails.attributes.ITIID%>"data-show="singlecompanyData" ><a href="javascript:;"><b><u><%=instituteDetails.attributes.ITICode%></u></b></a></td></td>
+  <td class=""><%=instituteDetails.attributes.instituteName%></td>
+  <td class=""><%=instituteDetails.attributes.state%></td>
+  <td class=""><%=instituteDetails.attributes.principalName%></td>
+  <td class=""><%=instituteDetails.attributes.mobileNumber%></td>
+  <td class=""><%=instituteDetails.attributes.landLineNumber%></td>
+  <td class=""><%= formatDate(instituteDetails.attributes.createdDate,'no') %></td>
+  <td>
+    <button type="button" class="btn btn-info btn-xs loadview" data-toggle="modal" data-target="#myModal" data-ITIID="<%=instituteDetails.attributes.ITIID%>" data-show="singlecompanyData">Edit</button>
+    
+  </td>
+</tr>
+              

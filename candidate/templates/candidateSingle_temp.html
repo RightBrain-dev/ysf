@@ -1,0 +1,223 @@
+<div id="companyData" class="modelbox">
+    <div class="clearfix">&nbsp;</div>
+
+<form id="companyDetails" name="companyDetails" action="#">
+    <div class="col-xs-12">
+        <div class="member-profile-img">
+            <img src="">
+        </div>
+    </div>    
+      <div class="col-xs-12">
+        <div class="col-sm-4 ">
+                <label for="regiNoYSF">regiNoYSF<span class="error">*</span> :</label>
+                <input id="regiNoYSF" class="form-control txtchange " name="regiNoYSF" required="" disabled="" maxlength="100" type="text" value="<%=  model.regiNoYSF %>">
+                <!-- <span class="fa fa-user form-control-feedback left" aria-hidden="true"></span> -->
+        </div> 
+         <div class="col-sm-4  ">
+                <label for="regNoPortal">regNoPortal<span class="error">*</span> :</label>
+                <input id="regNoPortal" class="form-control txtchange " name="regNoPortal" required="" maxlength="100" type="text" value="<%=  model.regNoPortal %>">
+                <!-- <span class="fa fa-user form-control-feedback left" aria-hidden="true"></span> -->
+        </div> 
+        <div class="col-sm-4  ">
+                <label for="ITICode">ITICode<span class="error">*</span> :</label>
+                <input id="ITICode" class="form-control txtchange " name="ITICode" required="" maxlength="100" type="text" value="<%=  model.ITICode %>">
+                <!-- <span class="fa fa-user form-control-feedback left" aria-hidden="true"></span> -->
+        </div> 
+
+      </div>
+      <div class="col-xs-12 form-control-row has-feedback">
+        <div class="col-sm-12 ">
+                <label for="instituteName">instituteName<span class="error">*</span> :</label>
+                <input id="instituteName" class="form-control txtchange has-feedback-left" name="instituteName" required="" maxlength="100" type="text" value="<%=  model.instituteName %>">
+                <span class="fa fa-university form-control-feedback left" aria-hidden="true"></span>  
+        </div> 
+        
+       </div>
+       <div class="col-xs-12 form-control-row has-feedback">
+          <div class="col-sm-12 ">
+                  <label for="candidateName">candidateName<span class="error">*</span> :</label>
+                  <input id="candidateName" class="form-control txtchange has-feedback-left" name="candidateName" required="" maxlength="100" type="text" value="<%=  model.candidateName %>">
+                  <span class="fa fa-user form-control-feedback left" aria-hidden="true"></span>  
+          </div> 
+        </div>
+     <div class="col-xs-12">
+        <div class="col-sm-4 has-feedback">
+                <label for="middleName">middleName<span class="error">*</span> :</label>
+                <input id="middleName" class="form-control txtchange has-feedback-left" name="middleName" required="" maxlength="100" type="text" value="<%=  model.middleName %>">
+                <span class="fa fa-user form-control-feedback left" aria-hidden="true"></span>
+        </div> 
+         <div class="col-sm-4 ">
+                <label for="relationship">relationship<span class="error">*</span> :</label>
+                <input id="relationship" class="form-control txtchange " name="relationship" required="" maxlength="100" type="text" value="<%=  model.relationship %>">
+                <!-- <span class="fa fa-user form-control-feedback left" aria-hidden="true"></span> -->
+        </div> 
+        <div class="col-sm-4  ">
+                <label for="dateOfBirth">dateOfBirth<span class="error">*</span> :</label>
+                <input id="dateOfBirth" class="form-control txtchange " name="dateOfBirth" required="" type="date" value="<%=  model.dateOfBirth %>">
+                <!-- <span class="fa fa-user form-control-feedback left" aria-hidden="true"></span> -->
+        </div> 
+
+      </div>
+      <div class="col-xs-12">
+        <div class="col-sm-4 ">
+                <label for="gender">gender<span class="error">*</span> :</label>
+                <select id="gender" name="gender" class="form-control txtchange dropval">
+                <option value="">Select gender</option>
+                <option value="male">male</option> 
+                <option value="Female">Female</option> 
+            </select>
+                <!-- <span class="fa fa-user form-control-feedback left" aria-hidden="true"></span> -->
+        </div> 
+         <div class="col-sm-4  ">
+                <label for="disability">disability<span class="error">*</span> :</label>
+                <select id="disability" name="disability" class="form-control txtchange dropval">
+                <option value="">Select</option>
+                <option value="yes">yes</option> 
+                <option value="no">no</option> 
+            </select>
+                <!-- <span class="fa fa-user form-control-feedback left" aria-hidden="true"></span> -->
+        </div> 
+        <div class="col-sm-4  ">
+                <label for="aadharNo">aadharNo<span class="error">*</span> :</label>
+                <input id="aadharNo" class="form-control txtchange " name="aadharNo" required="" maxlength="100" type="text" value="<%=  model.aadharNo %>">
+                <!-- <span class="fa fa-user form-control-feedback left" aria-hidden="true"></span> -->
+        </div> 
+      </div>
+      <div class="col-xs-12">
+        <div class="col-sm-3 ">
+                <label for="panNo">panNo<span class="error">*</span> :</label>
+                <input id="panNo" class="form-control txtchange " name="panNo" required="" maxlength="100" type="text" value="<%=  model.panNo %>">
+                <!-- <span class="fa fa-user form-control-feedback left" aria-hidden="true"></span> -->
+        </div> 
+         <div class="col-sm-3  ">
+                <label for="secondaryIDName">secondaryIDName<span class="error">*</span> :</label>
+                <select id="secondaryIDName" name="secondaryIDName" class="form-control txtchange dropval">
+                <option value="">Select State</option>
+                <option value="driving licence">driving licence</option> 
+                <option value="voter ID">voter ID</option>
+                <option value="passport">passport</option>  
+            </select>
+                <!-- <span class="fa fa-user form-control-feedback left" aria-hidden="true"></span> -->
+        </div> 
+        <div class="col-sm-3  ">
+                <label for="secondryID">secondryID Number<span class="error">*</span> :</label>
+                <input id="secondryID" class="form-control txtchange " name="secondryID" required="" maxlength="100" type="text" value="<%=  model.secondryID %>">
+                <!-- <span class="fa fa-user form-control-feedback left" aria-hidden="true"></span> -->
+        </div> 
+         <div class="col-sm-3  ">
+                <label for="category">category<span class="error">*</span> :</label>
+                <select id="category" name="category" class="form-control txtchange dropval">
+                <option value="">Select</option>
+                <option value="GEN">GEN</option> 
+                <option value="OBC">OBC</option> 
+                <option value="SC">SC</option> 
+                <option value="ST">ST</option> 
+            </select>
+                <!-- <span class="fa fa-user form-control-feedback left" aria-hidden="true"></span> -->
+        </div>
+      </div>
+      <div class="col-xs-12 ">
+        <div class="col-sm-12 ">
+                <label for="aboutMe">aboutMe<span class="error">*</span> :</label>
+                <textarea id="aboutMe" class="form-control txtchange" name="aboutMe" required="" maxlength="250"><%=  model.aboutMe %></textarea>               
+        </div>
+      </div>
+
+      <div class="col-xs-12 form-control-row">
+        <div class="col-sm-12 ">
+                <label for="fullAddress">fullAddress<span class="error">*</span> :</label>
+                <textarea id="fullAddress" class="form-control txtchange" name="fullAddress" required="" maxlength="250"><%=  model.fullAddress %></textarea>               
+        </div>
+      </div>
+       <div class="col-xs-12 form-control-row">
+         <div class="col-sm-6">
+        <label style="width:100%;"for="state">State Name<span class="error">*</span><br>
+            <select id="state" name="state" class="form-control txtchange dropval">
+              <option value="">Select State</option>
+              <% _.each(stateList, function(model1) { %>
+                <option <% if(model1.attributes.stateID == model.state){ %> selected <% } %> value="<%=model1.attributes.stateID%>"><%=model1.attributes.stateName%></option>
+              <%}); %>
+            </select>
+          </label>
+        </div>
+          <div class="col-sm-6 ">
+            <label for="pinCode">pinCode<span class="error">*</span> :</label>
+            <input id="pinCode" class="form-control txtchange" name="pinCode" required="" maxlength="15" type="text" value="<%=  model.pinCode %>">
+        </div> 
+      </div>    
+      <div class="col-xs-12 form-control-row">
+        <div class="col-sm-6 has-feedback">
+            <label for="mobile1">mobile1<span class="error">*</span> :</label>
+            <input id="mobile1" class="form-control txtchange has-feedback-left" name="mobile1"maxlength="20" type="tel" required="" pattern="[0-9]" value="<%=  model.mobile1 %>">
+            <span class="fa fa-phone form-control-feedback left" aria-hidden="true"></span>
+        </div>
+        <div class="col-sm-6 has-feedback">
+            <label for="mobile2">mobile2<span class="error"></span> :</label>
+            <input id="mobile2" class="form-control txtchange has-feedback-left" name="mobile2"maxlength="20" type="tel" pattern="[0-9]" value="<%=  model.mobile2 %>">
+            <span class="fa fa-phone form-control-feedback left" aria-hidden="true"></span>
+        </div>
+      </div>  
+      <div class="col-xs-12 form-control-row">       
+        <div class="col-sm-6 has-feedback">
+            <label for="pMobile1">parent Mobile1<span class="error">*</span> :</label>
+            <input id="pMobile1" class="form-control txtchange has-feedback-left" name="pMobile1"  minlength="10" maxlength="10" required="" pattern="[0-9]"  type="tel" value="<%=  model.pMobile1 %>">
+            <span class="fa fa-phone form-control-feedback left" aria-hidden="true"></span>
+
+        </div> 
+        <div class="col-sm-6 has-feedback">
+            <label for="pMobile2">parent Mobile2<span class="error"></span> :</label>
+            <input id="pMobile2" class="form-control txtchange has-feedback-left" name="pMobile2"  minlength="10" maxlength="10" pattern="[0-9]"  type="text" value="<%=  model.pMobile2 %>">
+            <span class="fa fa-phone form-control-feedback left" aria-hidden="true"></span>
+
+        </div> 
+      </div>  
+      <div class="col-xs-12 ">       
+        <div class="col-sm-6 has-feedback">
+            <label for="email">email<span class="error">*</span> :</label>
+            <input id="email" class="form-control txtchange " required="" name="email"  type="email" value="<%=  model.email %>">
+            <!-- <span class="fa fa-phone form-control-feedback left" aria-hidden="true"></span> -->
+
+        </div> 
+        <div class="col-sm-6 ">
+            <label for="eudQualification">eudQualification<span class="error">*</span> :</label>
+            <input id="eudQualification" class="form-control txtchange "  required=""name="eudQualification"   type="text" value="<%=  model.eudQualification %>">
+            <!-- <span class="fa fa-phone form-control-feedback left" aria-hidden="true"></span> -->
+
+        </div> 
+      </div>  
+      <div class="col-xs-12 form-control-row">       
+        <div class="col-sm-6 has-feedback">
+            <label for="trade">trade<span class="error"></span> :</label>
+            <input id="trade" class="form-control txtchange" name="trade"    type="text" value="<%=  model.trade %>">
+            <!-- <span class="fa fa-phone form-control-feedback left" aria-hidden="true"></span> -->
+
+        </div> 
+        <div class="col-sm-6 has-feedback">
+            <label for="aggregateMarks">aggregate Marks<span class="error">*</span> :</label>
+            <input id="aggregateMarks" class="form-control txtchange" required="" name="aggregateMarks"  type="text" value="<%=  model.aggregateMarks %>">
+            <!-- <span class="fa fa-phone form-control-feedback left" aria-hidden="true"></span> -->
+
+        </div> 
+      </div>  
+      <div class="col-xs-12 form-control-row">       
+        <div class="col-sm-6 has-feedback">
+            <label for="percentage">percentage<span class="error">*</span> :</label>
+            <input id="percentage" class="form-control txtchange " required="" name="percentage"  type="text" value="<%=  model.percentage %>">
+            <!-- <span class="fa fa-phone form-control-feedback left" aria-hidden="true"></span> -->
+
+        </div> 
+        <div class="col-sm-6 ">
+            <label for="PassingYear">PassingYear<span class="error">*</span> :</label>
+            <input id="PassingYear" class="form-control txtchange " required="" name="PassingYear"  type="text" value="<%=  model.PassingYear %>">
+            <!-- <span class="fa fa-phone form-control-feedback left" aria-hidden="true"></span> -->
+
+        </div> 
+      </div>  
+
+      <div class="clearfix">&nbsp;</div>
+        <div class="text-center">
+        <div class="clearfix">&nbsp;</div>
+        <button id="saveCompanyDetails" type="button" class="btn btn-default btn-success">Save</button>
+      </div>
+      </form>
+</div>

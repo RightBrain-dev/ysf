@@ -1,0 +1,99 @@
+<div class="right_col overflow-hidden" role="main">
+  <div class="col-md-12 col-sm-12 col-xs-12">
+    <div class="x_panel">
+      <div class="x_title">
+        <h2>Company Master</h2>
+        <ul class="nav navbar-right panel_toolbox">
+          <%if(permission.delete == "yes") { %>
+          <li>
+            <button type="button" class="btn btn-default btn-success changeStatus" data-action="delete">Delete</button>
+          </li>
+          <% } %>
+          
+          <%if(permission.edit == "yes") { %>
+          <li>
+            <button type="button" class="btn btn-info loadview" data-target="#myModal" data-companyID="" data-show="singlecompanyData"
+              data-toggle="modal">Add Company Details</button>
+          </li>
+          <% } %>
+          <li>
+            <button type="button" id="filterOption" class="btn btn-info" data-toggle="modal" data-target="#myModal">Filter</button>
+          </li>
+        </ul>
+        <div class="clearfix">&nbsp;</div>
+      </div>
+      <div class="x_content">
+        <div class="table-responsive">
+          <table id="clist" class="table jambo_table bulk_action tableList">
+            <thead>
+              <tr class="headings">
+                <th>
+                  <div class="bg__control normal">
+                    <label class="check__box">
+                      <input class="checkall" data-tocheck="clist" type="checkbox">
+                        <div class="square__box round"></div>
+                    </label>
+                  </div>
+                </th>
+                <th class="column-title">Candidate YSF ID</th>
+                <th class="column-title">Candidate Name</th> 
+                <th class="column-title">ITI Name</th>
+                <th class="column-title">Mobile Number</th>
+                <th class="column-title">Email</th>
+                <th class="column-title">Created Date</th>
+                <th class="column-title">Action</th>
+                <th class="bulk-actions" colspan="7">
+                  <a class="antoo" style="color:#fff; font-weight:500;">Bulk Actions ( <span class="action-cnt"> </span> ) <i class="fa fa-chevron-down"></i></a>
+                </th>
+              </tr>
+            </thead>
+            <tbody id="companyList">
+            </tbody>
+          </table>
+          <div class="profile-loader-msg text-center"></div>
+          <div class="profile-loader"><img src="systems/images/loading.gif"></div>
+          <div id="loadMember" data-index="1" data-currPage="1"></div>
+        </div>
+        <!-- paggination -->
+        <div class="row">
+          <div class="col-sm-5">
+            <div class="dataTables_info" id="datatable-checkbox_info" role="status" aria-live="polite"> <span class="page-info"></span></div>
+            
+          </div>
+          <div class="col-sm-7">
+            <div class="showPageDetails dataTables_paginate paging_simple_numbers">
+              <ul class="pagination">
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- paggination -->
+      </div>
+    </div>
+  </div>
+  <div class="clearfix">&nbsp;</div>
+  <div class="clearfix">&nbsp;</div>
+  <div class="clearfix">&nbsp;</div>
+  <div class="clearfix">&nbsp;</div>
+  <div class="clearfix">&nbsp;</div>
+  <div class="clearfix">&nbsp;</div>
+</div>
+
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title"></h4>
+      </div>
+      <div id="modalBody" class="modal-body">
+        <div class="popupLoader text-center"><img src="systems/images/loading.gif"></div>
+      </div>
+      
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>

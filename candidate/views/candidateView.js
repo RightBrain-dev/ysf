@@ -160,7 +160,7 @@ var companyView = Backbone.View.extend({
     resetSearch: function()
     {
       
-        filterOption.set({curpage:0,cID:null,textval: null,filterSName:null,filterBName:null,textSearch:'cID',status:'active',orderBy:'companyName',order:'ASC'});
+        filterOption.set({curpage:0,cID:null,textval: null,filterSName:null,filterBName:null,textSearch:'cID',status:'active',orderBy:'candidateName',order:'ASC'});
         $(".multiOptionSel").removeClass("active");
         $("#textval").val("");
         $('#textSearch option[value=cID]').attr('selected','selected');

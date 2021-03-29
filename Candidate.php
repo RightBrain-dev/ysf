@@ -201,10 +201,13 @@ class Candidate extends CI_Controller {
 				$candidateDetails['aggregateMarks'] = $this->validatedata->validate('aggregateMarks','aggregateMarks',true,'',array());
 				$candidateDetails['percentage'] = $this->validatedata->validate('percentage','percentage',true,'',array());
 				$candidateDetails['PassingYear'] = $this->validatedata->validate('PassingYear','PassingYear',true,'',array());
+
+						// print_r($method);exit();
 					if($method=="POST")
 					{
+
 						$candidateDetails['status'] = "active";
-						// $candidateDetails['regiNoYSF']="ITI".uniqid();
+						$candidateDetails['regiNoYSF']="ITI".uniqid();
 						$candidateDetails['createdBy'] = $this->input->post('SadminID');
 						$candidateDetails['createdDate'] = $updateDate;
 						$iscreated = $this->CommonModel->saveMasterDetails('candidate',$candidateDetails);
@@ -223,7 +226,7 @@ class Candidate extends CI_Controller {
 							$this->response->output($status,200);
 						}
 
-					}elseif($method="PUT")
+					}elseif($method=="PUT")
 					{
 						$where=array('cID'=>$cID);
 						if(!isset($cID) || empty($cID)){

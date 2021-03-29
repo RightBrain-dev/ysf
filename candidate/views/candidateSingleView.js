@@ -135,15 +135,16 @@ var companySingleView = Backbone.View.extend({
     },
     saveCompanyDetails: function(e){
       e.preventDefault();
-      var cid = this.model.get("companyID");
+      var cid = this.model.get("cID");
+      console.log(cid);
       if(permission.edit != "yes"){
         alert("You dont have permission to edit");
         return false;
       }
       if(cid == "" || cid == null){
-        var methodt = "PUT";
-      }else{
         var methodt = "POST";
+      }else{
+        var methodt = "PUT";
       }
       if($("#companyDetails").valid()){
         var selfobj = this;
